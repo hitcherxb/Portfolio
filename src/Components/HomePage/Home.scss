@@ -1,0 +1,58 @@
+@mixin Flex($direction) {
+    display: flex;
+    justify-content: center;
+    flex-direction: $direction;
+
+}
+
+#topProfile{
+    background-image: url('../Pictures/Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100vw;
+    height: 60vw;
+}
+
+nav{
+    @include Flex(row);
+    h1{
+        width: 100vw;
+        margin-left: 1vw;
+        font-size: 1.8em;
+    }
+    .navButton{
+        font-size: 1.5em;
+    }
+    .navFlex{
+        @include Flex(row);
+        justify-content: space-between;
+        margin-top: 2vh;
+        margin-right: 2vw;
+        width: 60vw;
+        height: 10vh;
+    }
+}
+
+.headerFlex{
+    @include Flex(row);
+    justify-content: space-around;
+    width: 100vw;
+    height: 30vw;
+    align-items: center;
+    #headerInfo{
+        @include Flex(column);
+        height: 30vh;
+        justify-content: space-around;
+
+    }
+    img{
+        width:25vw;
+        height: 25vw;
+    }
+    Button{
+        width:10vw
+    }
+}
+
+
+
