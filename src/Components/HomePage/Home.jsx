@@ -51,7 +51,7 @@ function Home(props) {
                 <div id='projectRow'>
                     <div id='projectInfo'>
                         <h1>Bucket List</h1>
-                        <p>Bucketlist is a website that allows you to store a bucket list item in your profile. Once this objective has been completed you can check it off and blog about your adventure. The front end if this application is created in React.js, that is then connected to the MongoDB server through Mongoose. The events that are complete are then showed on the "My Feed" page with the blog post attached.</p>
+                        <p>Bucketlist is a website that allows you to store a bucket list item in your profile. Once this objective has been completed you can check it off and blog about your adventure. The front end of this application is created in React.js, which is then connected to the MongoDB server through Mongoose. The events that are complete are then shown on the "My Feed" page with the blog post attached.</p>
                         <div id='projectLanguages'>
                             <div id='centerR'><Icon icon={bxlReact} style={{ fontSize: '36px' }} /> React</div>
                             <div id='centerC'><Icon icon={bxsFileCss} style={{ fontSize: '36px' }} /> CSS</div>
