@@ -1,9 +1,9 @@
 #topProfile {
-  background-image: url("../Pictures/Rectangle.png");
+  background-image: url("../Pictures/mobileBackground.png");
   background-repeat: no-repeat;
   background-size: 100vw;
   width: 100vw;
-  height: 60vw;
+  height: 250vw;
 }
 
 nav {
@@ -20,11 +20,13 @@ nav h1 {
   font-family: Halant;
   width: 100vw;
   margin-left: 1vw;
-  font-size: 1.8em;
+  font-size: 1.3em;
 }
 
 nav .navButton {
-  font-size: 1.5em;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
 }
 
 nav .navFlex {
@@ -48,14 +50,12 @@ nav .navFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100vw;
-  height: 30vw;
+  height: 30vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -73,68 +73,84 @@ nav .navFlex {
   height: 30vh;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-left: 2vw;
 }
 
 .headerFlex #headerInfo h1 {
-  font-size: 4rem;
+  font-size: 2rem;
+  margin-bottom: 0;
 }
 
 .headerFlex #headerInfo p {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: #353535;
 }
 
 .headerFlex img {
-  width: 25vw;
-  height: 25vw;
-  border-radius: 50px;
+  width: 90vw;
+  height: 90vw;
+  border: #F6F2EE solid 10px;
+  border-radius: 5%;
 }
 
-.headerFlex Button {
+.headerFlex .MuiButton-root {
   font-family: overpass;
+  text-transform: inherit;
   font-weight: bold;
-  width: 10vw;
-  height: 3.5vw;
+  width: 40vw;
+  height: 15vw;
   font-size: 1em;
+  background-color: #873B36;
+  color: white;
+  border-radius: 30px;
+  margin-bottom: 3vw;
+}
+
+.headerFlex .MuiButton-root:hover {
   background-color: #873B36;
   color: white;
 }
 
-.headerFlex Button:hover {
-  background-color: #F6F2EE;
-  border-color: #D09A49;
-  border: 5px solid #D09A49;
-  color: black;
+#featuredP {
+  height: 10vw;
 }
 
-#project {
-  margin-top: 7vh;
-  width: 100vw;
-  height: 45vw;
-}
-
-#project h2 {
+#featuredP h2 {
   margin-left: 10vw;
 }
 
-#project hr {
+#featuredP hr {
   width: 85vw;
   border-color: #D09A49;
   margin-bottom: 8vh;
+}
+
+#project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin-top: 7vh;
+  width: 100vw;
+  height: 100vw;
 }
 
 #project #projectRow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 100vw;
-  height: 25vw;
+  height: 100vw;
 }
 
 #project #projectInfo {
@@ -149,15 +165,21 @@ nav .navFlex {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 30vw;
+  margin-left: 4vw;
+  margin-top: 5vh;
 }
 
 #project #projectInfo h1 {
-  font-size: 3em;
+  font-size: 2em;
   margin: 0;
+  width: 100vw;
+  margin-bottom: 5vh;
 }
 
 #project #projectInfo p {
-  font-size: 1.3em;
+  font-size: 1em;
+  width: 90vw;
+  margin-bottom: 5vh;
 }
 
 #project #projectLanguages {
@@ -172,7 +194,9 @@ nav .navFlex {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 1.2em;
-  margin-bottom: 2vh;
+  width: 80vw;
+  margin-bottom: 5vh;
+  margin-left: 4vw;
 }
 
 #project #projectLanguages #centerR {
@@ -188,7 +212,7 @@ nav .navFlex {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 6vw;
+  width: 22vw;
 }
 
 #project #projectLanguages #centerC {
@@ -204,7 +228,7 @@ nav .navFlex {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 6vw;
+  width: 18vw;
 }
 
 #project #projectLanguages #centerH {
@@ -220,7 +244,7 @@ nav .navFlex {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 6vw;
+  width: 23vw;
 }
 
 #project #projectLinks {
@@ -234,9 +258,11 @@ nav .navFlex {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  width: 90vw;
+  margin-bottom: 5vh;
 }
 
-#project #projectLinks Button {
+#project #projectLinks .MuiButton-root {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -249,10 +275,26 @@ nav .navFlex {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 10vw;
+  width: 40vw;
   border-color: #D09A49;
   color: black;
   text-decoration: none;
+}
+
+#project #projectLinks .MuiButton-root #liveButton {
+  border-color: #D09A49;
+  color: black;
+  width: 38vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#project #projectLinks .MuiButton-root #gitButton {
+  border-color: #D09A49;
+  color: black;
+  width: 38vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 #project #picture {
@@ -269,11 +311,13 @@ nav .navFlex {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
 }
 
 #project #picture img {
-  width: 35vw;
-  height: 25vw;
+  width: 90vw;
+  height: 75vw;
   border-radius: 2%;
 }
 
@@ -290,10 +334,30 @@ nav .navFlex {
           align-items: center;
   width: 100vw;
   margin-bottom: 5vw;
+  height: 20vh;
 }
 
 #contact h1 {
   margin-bottom: 3vh;
+}
+
+#contact .MuiButton-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 40vw;
+  border-color: #D09A49;
+  color: black;
+  text-decoration: none;
 }
 
 footer {
@@ -330,5 +394,351 @@ footer #links {
   width: 30vw;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+@media (min-width: 900px) {
+  #topProfile {
+    background-image: url("../Pictures/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100vw;
+    height: 60vw;
+  }
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  nav h1 {
+    font-family: Halant;
+    width: 100vw;
+    margin-left: 1vw;
+    font-size: 1.8em;
+  }
+  nav .navButton {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+  }
+  nav .navFlex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    width: 60vw;
+    height: 10vh;
+  }
+  #featuredP {
+    height: 7vw;
+  }
+  .headerFlex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100vw;
+    height: 30vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: overpass;
+  }
+  .headerFlex #headerInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 30vh;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .headerFlex #headerInfo h1 {
+    font-size: 4rem;
+  }
+  .headerFlex #headerInfo p {
+    font-size: 2rem;
+  }
+  .headerFlex img {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50px;
+  }
+  .headerFlex .MuiButton-root {
+    font-family: overpass;
+    font-weight: bold;
+    width: 10vw;
+    height: 3.5vw;
+    font-size: 1em;
+    background-color: #873B36;
+    color: white;
+  }
+  .headerFlex .MuiButton-root:hover {
+    background-color: #F6F2EE;
+    border-color: #D09A49;
+    border: 5px solid #D09A49;
+    color: black;
+  }
+  #project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+    height: 15vw;
+  }
+  #project h2 {
+    margin-left: 10vw;
+  }
+  #project hr {
+    width: 85vw;
+    border-color: #D09A49;
+    margin-bottom: 8vh;
+  }
+  #project #projectRow {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100vw;
+    height: 25vw;
+  }
+  #project #projectInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 30vw;
+    margin-left: 5vw;
+  }
+  #project #projectInfo h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  #project #projectInfo p {
+    font-size: 1.3em;
+  }
+  #project #projectLanguages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 1.2em;
+    margin-bottom: 2vh;
+    width: 40vw;
+  }
+  #project #projectLanguages #centerR {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 6vw;
+  }
+  #project #projectLanguages #centerC {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 6vw;
+  }
+  #project #projectLanguages #centerH {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 6vw;
+  }
+  #project #projectLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 50vw;
+  }
+  #project #projectLinks .MuiButton-root {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 10vw;
+    border-color: #D09A49;
+    color: black;
+    text-decoration: none;
+  }
+  #project #projectLinks .MuiButton-root .projectButton {
+    border-color: #D09A49;
+    color: black;
+    width: 8vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #project #picture {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #project #picture img {
+    width: 35vw;
+    height: 25vw;
+    border-radius: 2%;
+  }
+  #picture {
+    margin-right: 2vw;
+  }
+  #contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+    height: 5vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+  }
+  #contact h1 {
+    margin-bottom: 3vh;
+  }
+  #contact .MuiButton-root {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 10vw;
+    border-color: #D09A49;
+    color: black;
+    text-decoration: none;
+  }
+  footer {
+    background-image: url("../Pictures/footerBackground.png");
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 7vw;
+    height: 8vh;
+  }
+  footer #links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    justify-items: space-between;
+    width: 30vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 /*# sourceMappingURL=Home.css.map */
