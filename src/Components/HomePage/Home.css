@@ -531,10 +531,17 @@ footer #links {
     margin-bottom: 8vh;
   }
   #project #projectRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 100vw;
+    width: 55vw;
     height: 25vw;
   }
   #project #projectInfo {
@@ -549,7 +556,6 @@ footer #links {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     width: 30vw;
-    margin-left: 5vw;
   }
   #project #projectInfo h1 {
     font-size: 3em;
@@ -557,6 +563,7 @@ footer #links {
   }
   #project #projectInfo p {
     font-size: 1.3em;
+    width: 30vw;
   }
   #project #projectLanguages {
     display: -webkit-box;
@@ -566,12 +573,12 @@ footer #links {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: inherit;
+        -ms-flex-pack: inherit;
+            justify-content: inherit;
     font-size: 1.2em;
-    margin-bottom: 2vh;
-    width: 40vw;
+    margin: 0;
+    width: 30vw;
   }
   #project #projectLanguages #centerR {
     display: -webkit-box;
@@ -629,7 +636,8 @@ footer #links {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 50vw;
+    margin-top: 2vw;
+    width: 31vw;
   }
   #project #projectLinks .MuiButton-root {
     display: -webkit-box;

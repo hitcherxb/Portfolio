@@ -337,30 +337,33 @@ nav{
         margin-bottom:8vh;
     }
     #projectRow{
-        
+        @include Flex(row);
         justify-content: space-evenly;
-        width:100vw;
+        width: 55vw;
         height:25vw;
     }
     #projectInfo{
         @include Flex(column);
         justify-content: space-evenly;
         width:30vw;
-        margin-left:5vw;
+        
+        
         h1{
             font-size: 3em;
             margin: 0;
         }
         p{
             font-size: 1.3em;
+            width:30vw;
+            
         }
     }
     #projectLanguages{
         @include Flex(row);
-        justify-content: space-between;
+        justify-content: inherit;
         font-size: 1.2em;
-        margin-bottom:2vh;
-        width:40vw;
+        margin:0;
+        width:30vw;
         #centerR{
             @include Flex(row);
             align-items: center;
@@ -383,7 +386,8 @@ nav{
     #projectLinks{
         @include Flex(row);
         justify-content: space-evenly;
-        width:50vw;
+        margin-top:2vw;
+        width:31vw;
         .MuiButton-root{
             @include Flex(row);
             align-items: center;
