@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: 100vw;
   width: 100vw;
-  height: 220vw;
+  height: 195vw;
 }
 
 nav {
@@ -70,9 +70,12 @@ nav .navFlex {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 30vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  height: 30vh;
   margin-left: 2vw;
 }
 
@@ -84,6 +87,7 @@ nav .navFlex {
 .headerFlex #headerInfo p {
   font-size: 1.5rem;
   color: #353535;
+  text-align: center;
 }
 
 .headerFlex img {
@@ -91,6 +95,7 @@ nav .navFlex {
   height: 90vw;
   border: #F6F2EE solid 10px;
   border-radius: 5%;
+  margin-top: 5vw;
 }
 
 .headerFlex .MuiButton-root {
@@ -149,6 +154,9 @@ nav .navFlex {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100vw;
   height: 100vw;
 }
@@ -164,22 +172,24 @@ nav .navFlex {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  width: 30vw;
-  margin-left: 4vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 5vh;
 }
 
 #project #projectInfo h1 {
   font-size: 2em;
   margin: 0;
-  width: 100vw;
   margin-bottom: 5vh;
+  text-align: center;
 }
 
 #project #projectInfo p {
   font-size: 1em;
   width: 90vw;
   margin-bottom: 5vh;
+  text-align: center;
 }
 
 #project #projectLanguages {
