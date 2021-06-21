@@ -91,8 +91,7 @@ nav .navFlex {
 }
 
 .headerFlex img {
-  width: 90vw;
-  height: 90vw;
+  width: 90%;
   border: #F6F2EE solid 10px;
   border-radius: 5%;
   margin-top: 5vw;
