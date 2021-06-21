@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 import { Icon, InlineIcon } from '@iconify/react';
 import bxlReact from '@iconify/icons-bx/bxl-react';
@@ -12,8 +12,10 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import profilePic from '../Pictures/me.png'
 import bucketList from '../Pictures/bucketList.png'
 import { Button } from '@material-ui/core'
-
 import { StylesProvider } from "@material-ui/core/styles";
+import Navbar from './Navbar/Navbar'
+
+
 
 
 
@@ -25,16 +27,8 @@ function Home(props) {
     return (
         <div>
             <div id='topProfile'>
-                {/* NavBar */}
-                <nav>
-                    <h1>Cody Thigpen</h1>
-                    <div className='navFlex'>
-                        <a href="#" className='navButton'>Projects</a>
-                        <a href="#" className='navButton'>About Me</a>
-                        <a href="#" className='navButton'>Resume</a>
-                        <a href="#" className='navButton'>Contact</a>
-                    </div>
-                </nav>
+
+                <Navbar />
 
                 <div className='headerFlex'>
                     <div id='headerInfo'>

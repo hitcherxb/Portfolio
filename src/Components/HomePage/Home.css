@@ -33,17 +33,17 @@ nav .navFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 2vh;
-  margin-right: 2vw;
-  width: 60vw;
+  width: 30vw;
   height: 10vh;
+  list-style: none;
 }
 
 .headerFlex {
@@ -70,9 +70,6 @@ nav .navFlex {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 30vh;
@@ -423,7 +420,7 @@ footer #links {
   }
   nav h1 {
     font-family: Halant;
-    width: 100vw;
+    width: 50vw;
     margin-left: 1vw;
     font-size: 1.8em;
   }
@@ -447,6 +444,7 @@ footer #links {
     margin-right: 2vw;
     width: 60vw;
     height: 10vh;
+    list-style: none;
   }
   #featuredP {
     height: 7vw;
@@ -466,6 +464,7 @@ footer #links {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 5vh;
     font-family: overpass;
   }
   .headerFlex #headerInfo {
