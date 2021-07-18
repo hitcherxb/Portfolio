@@ -13,7 +13,7 @@ import profilePic from '../Pictures/me.png'
 import bucketList from '../Pictures/bucketList.png'
 import { Button } from '@material-ui/core'
 import { StylesProvider } from "@material-ui/core/styles";
-import Navbar from './Navbar/Navbar'
+import Navbar from '../Navbar/Navbar'
 
 
 
