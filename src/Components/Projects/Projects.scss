@@ -1,0 +1,25 @@
+@mixin Flex($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+
+header{
+    @include Flex(column);
+    
+    background-image: url('../Pictures/ProjectBackground1-mobile.png');
+    height: 70vh;
+    width: 100vw;
+    #project-top{
+        @include Flex(column);
+        justify-content: space-evenly;
+        font-size: x-large;
+    }
+}
+@media (min-width: 900px) {
+
+
+
+
+
+}
