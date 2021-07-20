@@ -8,12 +8,22 @@ header{
     @include Flex(column);
     
     background-image: url('../Pictures/ProjectBackground1-mobile.png');
-    height: 70vh;
+    height: 85vh;
     width: 100vw;
     #project-top{
         @include Flex(column);
         justify-content: space-evenly;
-        font-size: x-large;
+        height: 45vh;
+        width: 75vw;
+        h1{
+            font-size: 3.5rem;
+            margin-left: 10vw;
+        }
+        p{
+            font-size: 1.5rem;
+            width: 70vw;
+            text-align: center;
+        }
     }
 }
 @media (min-width: 900px) {

@@ -7,7 +7,7 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url("../Pictures/ProjectBackground1-mobile.png");
-  height: 70vh;
+  height: 85vh;
   width: 100vw;
 }
 
@@ -22,6 +22,18 @@ header #project-top {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  font-size: x-large;
+  height: 45vh;
+  width: 75vw;
+}
+
+header #project-top h1 {
+  font-size: 3.5rem;
+  margin-left: 10vw;
+}
+
+header #project-top p {
+  font-size: 1.5rem;
+  width: 70vw;
+  text-align: center;
 }
 /*# sourceMappingURL=Projects.css.map */

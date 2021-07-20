@@ -45,8 +45,8 @@ nav{
     #headerInfo{
         @include Flex(column);
         justify-content: space-around;
+        align-items: center;
         height: 30vh;
-        
         margin-left: 2vw;
         h1{
             font-size: 2rem;
@@ -83,7 +83,7 @@ nav{
     }
 }
 #featuredP{
-    height: 45vh;
+    height: 40vh;
     h2{
         margin-left:10vw;
         
