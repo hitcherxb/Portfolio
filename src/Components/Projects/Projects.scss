@@ -8,7 +8,7 @@ header{
     @include Flex(column);
     
     background-image: url('../Pictures/ProjectBackground1-mobile.png');
-    height: 85vh;
+    height: 70vh;
     width: 100vw;
     #project-top{
         @include Flex(column);
@@ -24,6 +24,26 @@ header{
             width: 70vw;
             text-align: center;
         }
+    }
+}
+#project-1{
+    img{
+        width:100vw;
+        height:40vh;
+    }
+}
+
+#project-2{
+    img{
+        width:100vw;
+        height:40vh;
+    }
+}
+
+#project-3{
+    img{
+        width:100vw;
+        height:40vh;
     }
 }
 @media (min-width: 900px) {
