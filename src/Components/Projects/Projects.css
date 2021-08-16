@@ -7,6 +7,7 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url("../Pictures/ProjectBackground1-mobile.png");
+  background-repeat: no-repeat;
   height: 70vh;
   width: 100vw;
 }
@@ -22,33 +23,664 @@ header #project-top {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 45vh;
-  width: 75vw;
+  width: 100vw;
+  margin-top: 8vh;
 }
 
 header #project-top h1 {
   font-size: 3.5rem;
-  margin-left: 10vw;
 }
 
 header #project-top p {
   font-size: 1.5rem;
-  width: 70vw;
+  width: 80vw;
   text-align: center;
 }
 
-#project-1 img {
+#project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin-top: 30vh;
   width: 100vw;
-  height: 40vh;
+  height: 100vw;
 }
 
-#project-2 img {
+#project #projectRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100vw;
-  height: 40vh;
+  height: 100vw;
 }
 
-#project-3 img {
+#project #projectInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5vh;
+}
+
+#project #projectInfo h1 {
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+#project #projectInfo p {
+  font-size: 1em;
+  width: 90vw;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+#project #projectLanguages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.2em;
+  width: 80vw;
+  margin-bottom: 5vh;
+  margin-left: 4vw;
+}
+
+#project #projectLanguages .centerR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 22vw;
+}
+
+#project #projectLanguages .centerC {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 18vw;
+}
+
+#project #projectLanguages .centerH {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 23vw;
+}
+
+#project #projectLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 90vw;
+  margin-bottom: 5vh;
+}
+
+#project #projectLinks .MuiButton-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 40vw;
+  border-color: #D09A49;
+  color: black;
+  text-decoration: none;
+}
+
+#project #projectLinks .MuiButton-root .liveButton {
+  border-color: #D09A49;
+  color: black;
+  width: 38vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#project #projectLinks .MuiButton-root .gitButton {
+  border-color: #D09A49;
+  color: black;
+  width: 38vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#project .picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+}
+
+#project .picture img {
+  width: 90vw;
+  border-radius: 2%;
+}
+
+#project2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin-top: 45vh;
   width: 100vw;
-  height: 40vh;
+  height: 100vw;
+}
+
+#project2 #projectRow2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vw;
+}
+
+#project2 #projectInfo2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5vh;
+}
+
+#project2 #projectInfo2 h1 {
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+#project2 #projectInfo2 p {
+  font-size: 1em;
+  width: 90vw;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+#project2 #projectLanguages2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.2em;
+  width: 80vw;
+  margin-bottom: 5vh;
+  margin-left: 4vw;
+}
+
+#project2 #projectLanguages2 .centerR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 22vw;
+}
+
+#project2 #projectLanguages2 .centerC {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 18vw;
+}
+
+#project2 #projectLanguages2 .centerH {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 23vw;
+}
+
+#project2 #projectLinks2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 90vw;
+  margin-bottom: 5vh;
+}
+
+#project2 #projectLinks2 .MuiButton-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 40vw;
+  border-color: #D09A49;
+  color: black;
+  text-decoration: none;
+}
+
+#project2 #projectLinks2 .MuiButton-root .liveButton {
+  border-color: #D09A49;
+  color: black;
+  width: 38vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#project2 #projectLinks2 .MuiButton-root .gitButton {
+  border-color: #D09A49;
+  color: black;
+  width: 38vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#project2 .picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+}
+
+#project2 .picture img {
+  width: 90vw;
+  border-radius: 2%;
+}
+
+#project3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin-top: 45vh;
+  width: 100vw;
+  height: 100vw;
+  margin-bottom: 8vh;
+}
+
+#project3 #projectRow3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vw;
+}
+
+#project3 #projectInfo3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5vh;
+}
+
+#project3 #projectInfo3 h1 {
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+#project3 #projectInfo3 p {
+  font-size: 1em;
+  width: 90vw;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+#project3 #projectLanguages3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.2em;
+  width: 80vw;
+  margin-bottom: 5vh;
+  margin-left: 4vw;
+}
+
+#project3 #projectLanguages3 .centerR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 22vw;
+}
+
+#project3 #projectLanguages3 .centerC {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 18vw;
+}
+
+#project3 #projectLanguages3 .centerH {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 23vw;
+}
+
+#project3 #projectLinks3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 90vw;
+  margin-bottom: 5vh;
+}
+
+#project3 #projectLinks3 .MuiButton-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 40vw;
+  border-color: #D09A49;
+  color: black;
+  text-decoration: none;
+}
+
+#project3 #projectLinks3 .MuiButton-root .liveButton {
+  border-color: #D09A49;
+  color: black;
+  width: 38vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#project3 #projectLinks3 .MuiButton-root .gitButton {
+  border-color: #D09A49;
+  color: black;
+  width: 38vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#project3 .picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+}
+
+#project3 .picture img {
+  width: 90vw;
+  border-radius: 2%;
+}
+
+@media (min-width: 900px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: url("../Pictures/ProjectBackground1.png");
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100vw;
+  }
+  header #project-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 45vh;
+    width: 100vw;
+    margin-top: 8vh;
+  }
+  header #project-top h1 {
+    font-size: 3.5rem;
+  }
+  header #project-top p {
+    font-size: 1.5rem;
+    width: 80vw;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=Projects.css.map */

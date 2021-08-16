@@ -219,22 +219,6 @@ nav{
     }
 }
 
-footer{
-    background-image: url('../Pictures/footerBackground.png');
-    @include Flex(row);
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 7vw;
-    height: 8vh;
-    #links{
-        @include Flex(row);
-        justify-items: space-between;
-        width:30vw;
-        justify-content: space-around;
-    }
-}
-
 
 // for desktop
 @media (min-width: 900px) {
@@ -432,22 +416,6 @@ nav{
             border-color: #D09A49;
             color: black;
             text-decoration: none;
-    }
-}
-
-footer{
-    background-image: url('../Pictures/footerBackground.png');
-    @include Flex(row);
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 7vw;
-    height: 8vh;
-    #links{
-        @include Flex(row);
-        justify-items: space-between;
-        width:30vw;
-        justify-content: space-around;
     }
 }
 

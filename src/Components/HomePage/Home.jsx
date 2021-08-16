@@ -14,6 +14,7 @@ import bucketList from '../Pictures/bucketList.png'
 import { Button } from '@material-ui/core'
 import { StylesProvider } from "@material-ui/core/styles";
 import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
 
 
 
@@ -80,14 +81,7 @@ function Home(props) {
                 <Button variant='outlined' href="#">Get in touch</Button>
 
             </div>
-            <footer>
-                <p>@  2021 Cody Thigpen</p>
-                <div id='links'>
-                    <a href="https://github.com/hitcherxb"><MailIcon style={{ fontSize: '36px', color: 'black' }} /></a>
-                    <a href="https://www.linkedin.com/in/codythigpen/"><LinkedInIcon style={{ fontSize: '36px', color: 'black' }} /></a>
-                    <a href="https://github.com/hitcherxb"><GitHubIcon style={{ fontSize: '36px', color: 'black' }} /></a>
-                </div>
-            </footer>
+            <Footer />
         </div >
     );
 }

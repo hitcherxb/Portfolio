@@ -8,47 +8,369 @@ header{
     @include Flex(column);
     
     background-image: url('../Pictures/ProjectBackground1-mobile.png');
+    background-repeat: no-repeat;
     height: 70vh;
     width: 100vw;
     #project-top{
         @include Flex(column);
         justify-content: space-evenly;
+        align-items: center;
         height: 45vh;
-        width: 75vw;
+        width: 100vw;
+        margin-top: 8vh;
         h1{
             font-size: 3.5rem;
-            margin-left: 10vw;
+            // margin-left: 10vw;
         }
         p{
             font-size: 1.5rem;
-            width: 70vw;
+            width: 80vw;
             text-align: center;
         }
     }
 }
-#project-1{
-    img{
+
+//Project 1
+#project{
+    @include Flex(column-reverse);
+    margin-top:30vh;
+    width:100vw;
+    height: 100vw;
+    
+   
+    #projectRow{
+        @include Flex(column);
+        justify-content: space-evenly;
+        align-items: center;
         width:100vw;
-        height:40vh;
+        height:100vw;
     }
+    #projectInfo{
+        @include Flex(column);
+        justify-content: space-evenly;
+        justify-content: center;
+        margin-top:5vh;
+        h1{
+            font-size: 2em;
+            margin: 0;
+            margin-bottom:5vh;
+            text-align: center;
+        }
+        p{
+            font-size: 1em;
+            width:90vw;
+            margin-bottom:5vh;
+            text-align: center;
+        }
+    }
+    #projectLanguages{
+        @include Flex(row);
+        justify-content: space-between;
+        font-size: 1.2em;
+        width:80vw;
+        margin-bottom:5vh;
+        margin-left:4vw;
+
+        
+        .centerR{
+            @include Flex(row);
+            align-items: center;
+            justify-content: space-around;
+            width: 22vw;
+        }
+        .centerC{
+            @include Flex(row);
+            align-items: center;
+            justify-content: space-around;
+            width: 18vw;
+        }
+        .centerH{
+            @include Flex(row);
+            align-items: center;
+            justify-content: space-around;
+            width: 23vw;
+        }
+    }
+    #projectLinks{
+        @include Flex(row);
+        justify-content: space-evenly;
+        width:90vw;
+        margin-bottom:5vh;
+        
+        .MuiButton-root{
+            @include Flex(row);
+            align-items: center;
+            justify-content: space-around;
+            width: 40vw;
+            border-color: #D09A49;
+            color: black;
+            text-decoration: none;
+            .liveButton{
+                border-color: #D09A49;
+                color: black;
+                width: 38vw;
+                justify-content: space-around
+            }
+            .gitButton{
+                border-color: #D09A49;
+                color: black;
+                width: 38vw;
+                justify-content: space-around
+            }
+        }
+    }
+    .picture{
+        @include Flex(column);
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        
+        img{
+            width: 90vw;
+            border-radius: 2%;
+        }
+    }
+    
 }
 
-#project-2{
-    img{
+//Project 2
+#project2{
+    @include Flex(column-reverse);
+    margin-top:45vh;
+    width:100vw;
+    height: 100vw;
+    
+   
+    #projectRow2{
+        @include Flex(column);
+        justify-content: space-evenly;
+        align-items: center;
         width:100vw;
-        height:40vh;
+        height:100vw;
     }
+    #projectInfo2{
+        @include Flex(column);
+        justify-content: space-evenly;
+        justify-content: center;
+        margin-top:5vh;
+        h1{
+            font-size: 2em;
+            margin: 0;
+            margin-bottom:5vh;
+            text-align: center;
+        }
+        p{
+            font-size: 1em;
+            width:90vw;
+            margin-bottom:5vh;
+            text-align: center;
+        }
+    }
+    #projectLanguages2{
+        @include Flex(row);
+        justify-content: space-between;
+        font-size: 1.2em;
+        width:80vw;
+        margin-bottom:5vh;
+        margin-left:4vw;
+
+        
+        .centerR{
+            @include Flex(row);
+            align-items: center;
+            justify-content: space-around;
+            width: 22vw;
+        }
+        .centerC{
+            @include Flex(row);
+            align-items: center;
+            justify-content: space-around;
+            width: 18vw;
+        }
+        .centerH{
+            @include Flex(row);
+            align-items: center;
+            justify-content: space-around;
+            width: 23vw;
+        }
+    }
+    #projectLinks2{
+        @include Flex(row);
+        justify-content: space-evenly;
+        width:90vw;
+        margin-bottom:5vh;
+        
+        .MuiButton-root{
+            @include Flex(row);
+            align-items: center;
+            justify-content: space-around;
+            width: 40vw;
+            border-color: #D09A49;
+            color: black;
+            text-decoration: none;
+            .liveButton{
+                border-color: #D09A49;
+                color: black;
+                width: 38vw;
+                justify-content: space-around
+            }
+            .gitButton{
+                border-color: #D09A49;
+                color: black;
+                width: 38vw;
+                justify-content: space-around
+            }
+        }
+    }
+    .picture{
+        @include Flex(column);
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        
+        img{
+            width: 90vw;
+            border-radius: 2%;
+        }
+    }
+    
 }
 
-#project-3{
-    img{
+//Project 3
+#project3{
+    @include Flex(column-reverse);
+    margin-top:45vh;
+    width:100vw;
+    height: 100vw;
+    margin-bottom: 8vh;
+    
+   
+    #projectRow3{
+        @include Flex(column);
+        justify-content: space-evenly;
+        align-items: center;
         width:100vw;
-        height:40vh;
+        height:100vw;
     }
+    #projectInfo3{
+        @include Flex(column);
+        justify-content: space-evenly;
+        justify-content: center;
+        margin-top:5vh;
+        h1{
+            font-size: 2em;
+            margin: 0;
+            margin-bottom:5vh;
+            text-align: center;
+        }
+        p{
+            font-size: 1em;
+            width:90vw;
+            margin-bottom:5vh;
+            text-align: center;
+        }
+    }
+    #projectLanguages3{
+        @include Flex(row);
+        justify-content: space-between;
+        font-size: 1.2em;
+        width:80vw;
+        margin-bottom:5vh;
+        margin-left:4vw;
+
+        
+        .centerR{
+            @include Flex(row);
+            align-items: center;
+            justify-content: space-around;
+            width: 22vw;
+        }
+        .centerC{
+            @include Flex(row);
+            align-items: center;
+            justify-content: space-around;
+            width: 18vw;
+        }
+        .centerH{
+            @include Flex(row);
+            align-items: center;
+            justify-content: space-around;
+            width: 23vw;
+        }
+    }
+    #projectLinks3{
+        @include Flex(row);
+        justify-content: space-evenly;
+        width:90vw;
+        margin-bottom:5vh;
+        
+        .MuiButton-root{
+            @include Flex(row);
+            align-items: center;
+            justify-content: space-around;
+            width: 40vw;
+            border-color: #D09A49;
+            color: black;
+            text-decoration: none;
+            .liveButton{
+                border-color: #D09A49;
+                color: black;
+                width: 38vw;
+                justify-content: space-around
+            }
+            .gitButton{
+                border-color: #D09A49;
+                color: black;
+                width: 38vw;
+                justify-content: space-around
+            }
+        }
+    }
+    .picture{
+        @include Flex(column);
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        
+        img{
+            width: 90vw;
+            border-radius: 2%;
+        }
+    }
+    
 }
+
+
 @media (min-width: 900px) {
 
-
+    header{
+        @include Flex(column);
+        
+        background-image: url('../Pictures/ProjectBackground1.png');
+        background-repeat: no-repeat;
+        height: 70vh;
+        width: 100vw;
+        #project-top{
+            @include Flex(column);
+            justify-content: space-evenly;
+            align-items: center;
+            height: 45vh;
+            width: 100vw;
+            margin-top: 8vh;
+            h1{
+                font-size: 3.5rem;
+                // margin-left: 10vw;
+            }
+            p{
+                font-size: 1.5rem;
+                width: 80vw;
+                text-align: center;
+            }
+        }
+    }
 
 
 
