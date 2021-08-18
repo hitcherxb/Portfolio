@@ -24,6 +24,11 @@ function Projects(props) {
                 </div>
             </header>
 
+            <div id='myProjects'>
+                <h2>My Projects</h2>
+                <hr></hr>
+            </div>
+
             {/* Project 1 */}
             <div id='project'>
                 <div id='projectRow'>
