@@ -762,10 +762,12 @@ header #project-top p {
   #project #projectInfo h1 {
     font-size: 3em;
     margin: 0;
+    margin-bottom: 2vh;
   }
   #project #projectInfo p {
     font-size: 1.3em;
     width: 30vw;
+    margin-bottom: 4vh;
   }
   #project #projectLanguages {
     display: -webkit-box;
@@ -942,10 +944,12 @@ header #project-top p {
   #project2 #projectInfo2 h1 {
     font-size: 3em;
     margin: 0;
+    margin-bottom: 2vh;
   }
   #project2 #projectInfo2 p {
     font-size: 1.3em;
     width: 30vw;
+    margin-bottom: 4vh;
   }
   #project2 #projectLanguages2 {
     display: -webkit-box;
@@ -1083,7 +1087,7 @@ header #project-top p {
     width: 100vw;
     height: 15vw;
     margin-top: 25vh;
-    margin-bottom: 10vh;
+    margin-bottom: 15vh;
   }
   #project3 h2 {
     margin-left: 10vw;
@@ -1123,10 +1127,12 @@ header #project-top p {
   #project3 #projectInfo3 h1 {
     font-size: 3em;
     margin: 0;
+    margin-bottom: 2vh;
   }
   #project3 #projectInfo3 p {
     font-size: 1.3em;
     width: 30vw;
+    margin-bottom: 4vh;
   }
   #project3 #projectLanguages3 {
     display: -webkit-box;

@@ -12,6 +12,7 @@ import { StylesProvider } from "@material-ui/core/styles";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 import Footer from '../Footer/Footer'
+import PortfolioProject from '../Pictures/portfolioProject.png'
 
 function Projects(props) {
     return (
@@ -94,8 +95,8 @@ function Projects(props) {
             <div id='project3'>
                 <div id='projectRow3'>
                     <div id='projectInfo3'>
-                        <h1>Bucket List</h1>
-                        <p>A simple website that allows you to blog about your bucketlist accomplishments on your own profile.</p>
+                        <h1>Portfolio Project</h1>
+                        <p>Main objective for this project was to work with the UX/UI team on creating a portfolio for a fake person. My job in this was to work on the about page and make it responsive for the phone view as well. I created an easter egg on the page using JavaScript causing the whole page to change as well.</p>
                         <div id='projectLanguages3'>
                             <div className='centerR'><Icon ClassName='iconSize' icon={bxlReact} style={{ fontSize: '36px' }} /> React</div>
                             <div className='centerC'><Icon ClassName='iconSize' icon={bxsFileCss} style={{ fontSize: '36px' }} /> CSS</div>
@@ -106,10 +107,10 @@ function Projects(props) {
                             <div id='projectLinks3'>
                                 <StylesProvider injectFirst>
                                     <div>
-                                        <Button variant='outlined' className='liveButton' href="https://bucket-list-app.netlify.app">View site <OpenInNewIcon /></Button>
+                                        <Button variant='outlined' className='liveButton' href="https://jonny-vanessen.github.io/PatTheRefiner/index.html">View site <OpenInNewIcon /></Button>
                                     </div>
                                     <div>
-                                        <Button variant='outlined' className='gitButton' href="https://github.com/hitcherxb/Bucket-List">View code <GitHubIcon /></Button>
+                                        <Button variant='outlined' className='gitButton' href="https://github.com/hitcherxb/PatTheRefiner">View code <GitHubIcon /></Button>
                                     </div>
                                 </StylesProvider>
                             </div>
@@ -117,7 +118,7 @@ function Projects(props) {
                     </div>
                 </div>
                 <div className='picture'>
-                    <img src={NightFly} alt='Night Fly' />
+                    <img src={PortfolioProject} alt='Portfolio Project' />
                 </div>
             </div>
 
