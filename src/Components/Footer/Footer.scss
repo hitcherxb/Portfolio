@@ -30,6 +30,7 @@ footer{
         align-items: center;
         padding: 0 7vw;
         height: 8vh;
+        width: 85vw;
         #links{
             @include Flex(row);
             justify-items: space-between;

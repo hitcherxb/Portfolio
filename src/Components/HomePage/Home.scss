@@ -96,7 +96,7 @@ nav{
     }
 }
 
-#project{
+#featured-project{
     @include Flex(column-reverse);
     margin-top:7vh;
     width:100vw;
@@ -301,7 +301,7 @@ nav{
     }
 }
 
-#project{
+#featured-project{
     @include Flex(row);
     align-items: center;
     width:100vw;

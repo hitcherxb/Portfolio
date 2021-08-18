@@ -36,7 +36,7 @@ function Home(props) {
                 <h2>Featured Project</h2>
                 <hr></hr>
             </div>
-            <div id='project'>
+            <div id='featured-project'>
 
                 <div id='projectRow'>
                     <div id='projectInfo'>

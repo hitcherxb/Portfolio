@@ -22,7 +22,7 @@ function Contact(props) {
     }
 
     return (
-        <div>
+        <div className='background'>
             <Navbar />
             <div className='container'>
                 <h1 id='email-title'>Email me!</h1>

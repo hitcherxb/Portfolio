@@ -129,7 +129,7 @@ nav .navFlex {
   margin-bottom: 8vh;
 }
 
-#project {
+#featured-project {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,7 +142,7 @@ nav .navFlex {
   height: 100vw;
 }
 
-#project #projectRow {
+#featured-project #projectRow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,7 +160,7 @@ nav .navFlex {
   height: 100vw;
 }
 
-#project #projectInfo {
+#featured-project #projectInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,21 +177,21 @@ nav .navFlex {
   margin-top: 5vh;
 }
 
-#project #projectInfo h1 {
+#featured-project #projectInfo h1 {
   font-size: 2em;
   margin: 0;
   margin-bottom: 5vh;
   text-align: center;
 }
 
-#project #projectInfo p {
+#featured-project #projectInfo p {
   font-size: 1em;
   width: 90vw;
   margin-bottom: 5vh;
   text-align: center;
 }
 
-#project #projectLanguages {
+#featured-project #projectLanguages {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -208,7 +208,7 @@ nav .navFlex {
   margin-left: 4vw;
 }
 
-#project #projectLanguages #centerR {
+#featured-project #projectLanguages #centerR {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,7 +224,7 @@ nav .navFlex {
   width: 22vw;
 }
 
-#project #projectLanguages #centerC {
+#featured-project #projectLanguages #centerC {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -240,7 +240,7 @@ nav .navFlex {
   width: 18vw;
 }
 
-#project #projectLanguages #centerH {
+#featured-project #projectLanguages #centerH {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -256,7 +256,7 @@ nav .navFlex {
   width: 23vw;
 }
 
-#project #projectLinks {
+#featured-project #projectLinks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -271,7 +271,7 @@ nav .navFlex {
   margin-bottom: 5vh;
 }
 
-#project #projectLinks .MuiButton-root {
+#featured-project #projectLinks .MuiButton-root {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -290,7 +290,7 @@ nav .navFlex {
   text-decoration: none;
 }
 
-#project #projectLinks .MuiButton-root #liveButton {
+#featured-project #projectLinks .MuiButton-root #liveButton {
   border-color: #D09A49;
   color: black;
   width: 38vw;
@@ -298,7 +298,7 @@ nav .navFlex {
       justify-content: space-around;
 }
 
-#project #projectLinks .MuiButton-root #gitButton {
+#featured-project #projectLinks .MuiButton-root #gitButton {
   border-color: #D09A49;
   color: black;
   width: 38vw;
@@ -306,7 +306,7 @@ nav .navFlex {
       justify-content: space-around;
 }
 
-#project #picture {
+#featured-project #picture {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -324,7 +324,7 @@ nav .navFlex {
   margin-bottom: 10vw;
 }
 
-#project #picture img {
+#featured-project #picture img {
   width: 90vw;
   border-radius: 2%;
 }
@@ -472,7 +472,7 @@ nav .navFlex {
     border: 5px solid #D09A49;
     color: black;
   }
-  #project {
+  #featured-project {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -487,15 +487,15 @@ nav .navFlex {
     height: 15vw;
     margin-top: 15vh;
   }
-  #project h2 {
+  #featured-project h2 {
     margin-left: 10vw;
   }
-  #project hr {
+  #featured-project hr {
     width: 85vw;
     border-color: #D09A49;
     margin-bottom: 8vh;
   }
-  #project #projectRow {
+  #featured-project #projectRow {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -509,7 +509,7 @@ nav .navFlex {
     width: 55vw;
     height: 25vw;
   }
-  #project #projectInfo {
+  #featured-project #projectInfo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -522,15 +522,15 @@ nav .navFlex {
             justify-content: space-evenly;
     width: 30vw;
   }
-  #project #projectInfo h1 {
+  #featured-project #projectInfo h1 {
     font-size: 3em;
     margin: 0;
   }
-  #project #projectInfo p {
+  #featured-project #projectInfo p {
     font-size: 1.3em;
     width: 30vw;
   }
-  #project #projectLanguages {
+  #featured-project #projectLanguages {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -545,7 +545,7 @@ nav .navFlex {
     margin: 0;
     width: 30vw;
   }
-  #project #projectLanguages #centerR {
+  #featured-project #projectLanguages #centerR {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -560,7 +560,7 @@ nav .navFlex {
         justify-content: space-around;
     width: 6vw;
   }
-  #project #projectLanguages #centerC {
+  #featured-project #projectLanguages #centerC {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -575,7 +575,7 @@ nav .navFlex {
         justify-content: space-around;
     width: 6vw;
   }
-  #project #projectLanguages #centerH {
+  #featured-project #projectLanguages #centerH {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -590,7 +590,7 @@ nav .navFlex {
         justify-content: space-around;
     width: 6vw;
   }
-  #project #projectLinks {
+  #featured-project #projectLinks {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -604,7 +604,7 @@ nav .navFlex {
     margin-top: 2vw;
     width: 31vw;
   }
-  #project #projectLinks .MuiButton-root {
+  #featured-project #projectLinks .MuiButton-root {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -622,14 +622,14 @@ nav .navFlex {
     color: black;
     text-decoration: none;
   }
-  #project #projectLinks .MuiButton-root .projectButton {
+  #featured-project #projectLinks .MuiButton-root .projectButton {
     border-color: #D09A49;
     color: black;
     width: 8vw;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  #project #picture {
+  #featured-project #picture {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -644,7 +644,7 @@ nav .navFlex {
         -ms-flex-align: center;
             align-items: center;
   }
-  #project #picture img {
+  #featured-project #picture img {
     width: 35vw;
     height: 25vw;
     border-radius: 2%;

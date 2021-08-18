@@ -55,6 +55,7 @@ footer #links {
             align-items: center;
     padding: 0 7vw;
     height: 8vh;
+    width: 85vw;
   }
   footer #links {
     display: -webkit-box;
