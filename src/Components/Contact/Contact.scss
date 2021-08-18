@@ -1,0 +1,39 @@
+#background{
+    background-color: #F6F2EE;
+}
+
+// #email-title{
+//     text-align: center;
+//     margin: 4vh 0;
+// }
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    background-color: #F6F2EE;
+    #form{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .input{
+        margin-bottom: 2vh;
+        #standard-basic{
+            width: 30vw;
+            color: #873B66;
+        }
+    }
+    textarea{
+        width: 30vw;
+        margin-top: 2vh;
+        background-color: #F6F2EE;
+        color: #873B66;
+    }
+    
+   
+}
+//873B36
