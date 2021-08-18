@@ -27,7 +27,7 @@ function Home(props) {
                     <div id='headerInfo'>
                         <h1>Hi, I'm Cody</h1>
                         <p>A web developer based in South Florida.</p>
-                        <Button variant='contained' >See Projects</Button>
+                        <Button variant='contained' href="/Projects" >See Projects</Button>
                     </div>
                     <img src={profilePic} alt='profilePic' />
                 </div>
@@ -70,7 +70,7 @@ function Home(props) {
 
                 <h1>Contact Me</h1>
 
-                <Button variant='outlined' href="#">Get in touch</Button>
+                <Button variant='outlined' href="/Contact">Get in touch</Button>
 
             </div>
             <Footer />

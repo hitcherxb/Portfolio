@@ -11,7 +11,7 @@ function Footer(props) {
             <footer>
                 <p>@  2021 Cody Thigpen</p>
                 <div id='links'>
-                    <a href="https://github.com/hitcherxb"><MailIcon style={{ fontSize: '36px', color: 'black' }} /></a>
+                    <a href='/Contact'><MailIcon style={{ fontSize: '36px', color: 'black' }} /></a>
                     <a href="https://www.linkedin.com/in/codythigpen/"><LinkedInIcon style={{ fontSize: '36px', color: 'black' }} /></a>
                     <a href="https://github.com/hitcherxb"><GitHubIcon style={{ fontSize: '36px', color: 'black' }} /></a>
                 </div>

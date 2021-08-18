@@ -23,7 +23,7 @@ function AboutMe(props) {
 
                 <h1>Contact Me</h1>
 
-                <Button variant='outlined' href="#">Get in touch</Button>
+                <Button variant='outlined' href="/Contact">Get in touch</Button>
 
             </div>
 

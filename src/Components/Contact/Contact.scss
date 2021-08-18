@@ -1,3 +1,47 @@
+
+.background{
+    background-color: #F6F2EE;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+    background-color: #F6F2EE;
+    #form{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .input{
+        margin-bottom: 2vh;
+        text-align: center;
+        #standard-basic{
+            width: 65vw;
+            color: #873B66;
+        }
+    }
+    textarea{
+        width: 65vw;
+        margin-top: 2vh;
+        background-color: #F6F2EE;
+        color: #873B66;
+    } 
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined{
+        margin-top: 3vh;
+    }
+}
+
+
+
+// For Desktop
+@media (min-width: 900px) {
+
+
 .background{
     background-color: #F6F2EE;
 }
@@ -18,6 +62,7 @@
     }
     .input{
         margin-bottom: 2vh;
+        text-align: center;
         #standard-basic{
             width: 30vw;
             color: #873B66;
@@ -29,6 +74,5 @@
         background-color: #F6F2EE;
         color: #873B66;
     }
-    
-   
+}
 }
