@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './Home.css';
 import { Icon } from '@iconify/react';
 import bxlReact from '@iconify/icons-bx/bxl-react';
@@ -27,7 +28,7 @@ function Home(props) {
                     <div id='headerInfo'>
                         <h1>Hi, I'm Cody</h1>
                         <p>A web developer based in South Florida.</p>
-                        <Button variant='contained' href="/Projects" >See Projects</Button>
+                        <Button component={Link} to="/Projects" variant='contained' >See Projects</Button>
                     </div>
                     <img src={profilePic} alt='profilePic' />
                 </div>
@@ -70,7 +71,7 @@ function Home(props) {
 
                 <h1>Contact Me</h1>
 
-                <Button variant='outlined' href="/Contact">Get in touch</Button>
+                <Button component={Link} to="/Contact" variant='outlined'>Get in touch</Button>
 
             </div>
             <Footer />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer'
 import profilePic from '../Pictures/me.png'
@@ -23,7 +24,7 @@ function AboutMe(props) {
 
                 <h1>Contact Me</h1>
 
-                <Button variant='outlined' href="/Contact">Get in touch</Button>
+                <Button component={Link} to="/Contact" variant='outlined'>Get in touch</Button>
 
             </div>
 
