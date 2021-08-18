@@ -1,13 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Home.css';
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import bxlReact from '@iconify/icons-bx/bxl-react';
 import htmlIcon from '@iconify/icons-dashicons/html';
 import bxsFileCss from '@iconify/icons-bx/bxs-file-css';
-import javascriptIcon from '@iconify/icons-cib/javascript';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import MailIcon from '@material-ui/icons/Mail';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import profilePic from '../Pictures/me.png'
 import bucketList from '../Pictures/bucketList.png'
@@ -19,12 +16,7 @@ import Footer from '../Footer/Footer'
 
 
 
-
-
-
 function Home(props) {
-
-
     return (
         <div>
             <div id='topProfile'>

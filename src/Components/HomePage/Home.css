@@ -485,6 +485,7 @@ nav .navFlex {
             align-items: center;
     width: 100vw;
     height: 15vw;
+    margin-top: 15vh;
   }
   #project h2 {
     margin-left: 10vw;
