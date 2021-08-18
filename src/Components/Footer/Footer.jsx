@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailIcon from '@material-ui/icons/Mail';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -12,9 +12,9 @@ function Footer(props) {
             <footer>
                 <p>@  2021 Cody Thigpen</p>
                 <div id='links'>
-                    <a href='/Contact'><MailIcon style={{ fontSize: '36px', color: 'black' }} /></a>
+                    <Link to='/Contact'><MailIcon style={{ fontSize: '36px', color: 'black' }} /></Link>
                     <a href="https://www.linkedin.com/in/codythigpen/"><LinkedInIcon style={{ fontSize: '36px', color: 'black' }} /></a>
-                    <a component={Link} to="/Contact"><GitHubIcon style={{ fontSize: '36px', color: 'black' }} /></a>
+                    <a href="https://github.com/hitcherxb"><GitHubIcon style={{ fontSize: '36px', color: 'black' }} /></a>
                 </div>
             </footer>
 
