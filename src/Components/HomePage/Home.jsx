@@ -28,7 +28,7 @@ function Home(props) {
                     <div id='headerInfo'>
                         <h1>Hi, I'm Cody</h1>
                         <p>A web developer based in South Florida.</p>
-                        <Button component={Link} to="/Projects" variant='contained' >See Projects</Button>
+                        <Button component={Link} to="/Projects" variant='outlined'>See Projects</Button>
                     </div>
                     <img src={profilePic} alt='profilePic' />
                 </div>

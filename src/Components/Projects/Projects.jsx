@@ -107,7 +107,7 @@ function Projects(props) {
                             <div id='projectLinks3'>
                                 <StylesProvider injectFirst>
                                     <div>
-                                        <Button variant='outlined' className='liveButton' href="https://jonny-vanessen.github.io/PatTheRefiner/index.html">View site <OpenInNewIcon /></Button>
+                                        <Button variant='outlined' className='liveButton' href="https://hitcherxb.github.io/PatTheRefiner/">View site <OpenInNewIcon /></Button>
                                     </div>
                                     <div>
                                         <Button variant='outlined' className='gitButton' href="https://github.com/hitcherxb/PatTheRefiner">View code <GitHubIcon /></Button>

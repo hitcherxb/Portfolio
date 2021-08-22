@@ -66,19 +66,22 @@ nav{
         
     }
     .MuiButton-root{
-        font-family: overpass;
-        text-transform: inherit;
-        font-weight: bold;
-        width:40vw;
-        height: 15vw;
-        font-size: 1em;;
-        background-color: #873B36;
-        color: white;
-        border-radius: 30px;
-        margin-bottom: 3vw;;
-        &:hover{
-        background-color: #873B36;
-        color: white;
+        @include Flex(row);
+        align-items: center;
+        justify-content: space-around;
+        width: 10vw;
+        padding: 1vh 20vw;
+        border-color: #D09A49;
+        color: black;
+        text-decoration: none;
+        .projectButton{
+            border-color: #D09A49;
+            color: black;
+            width: 8vw;
+            justify-content: space-around
+        }
+        span.MuiButton-label{
+            text-align: center;
         }
     }
 }
@@ -285,18 +288,19 @@ nav{
         
     }
     .MuiButton-root{
-        font-family: overpass;
-        font-weight: bold;
-        width:10vw;
-        height: 3.5vw;
-        font-size: 1em;;
-        background-color: #873B36;
-        color: white;
-        &:hover{
-            background-color: #F6F2EE;
+        @include Flex(row);
+        align-items: center;
+        justify-content: space-around;
+        width: 10vw;
+        padding: 1vw;
+        border-color: #D09A49;
+        color: black;
+        text-decoration: none;
+        .projectButton{
             border-color: #D09A49;
-            border: 5px solid #D09A49;
             color: black;
+            width: 8vw;
+            justify-content: space-around
         }
     }
 }

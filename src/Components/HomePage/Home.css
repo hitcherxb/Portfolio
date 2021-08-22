@@ -98,21 +98,35 @@ nav .navFlex {
 }
 
 .headerFlex .MuiButton-root {
-  font-family: overpass;
-  text-transform: inherit;
-  font-weight: bold;
-  width: 40vw;
-  height: 15vw;
-  font-size: 1em;
-  background-color: #873B36;
-  color: white;
-  border-radius: 30px;
-  margin-bottom: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 10vw;
+  padding: 1vh 20vw;
+  border-color: #D09A49;
+  color: black;
+  text-decoration: none;
 }
 
-.headerFlex .MuiButton-root:hover {
-  background-color: #873B36;
-  color: white;
+.headerFlex .MuiButton-root .projectButton {
+  border-color: #D09A49;
+  color: black;
+  width: 8vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.headerFlex .MuiButton-root span.MuiButton-label {
+  text-align: center;
 }
 
 #featuredP {
@@ -458,19 +472,30 @@ nav .navFlex {
     border-radius: 50px;
   }
   .headerFlex .MuiButton-root {
-    font-family: overpass;
-    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     width: 10vw;
-    height: 3.5vw;
-    font-size: 1em;
-    background-color: #873B36;
-    color: white;
-  }
-  .headerFlex .MuiButton-root:hover {
-    background-color: #F6F2EE;
+    padding: 1vw;
     border-color: #D09A49;
-    border: 5px solid #D09A49;
     color: black;
+    text-decoration: none;
+  }
+  .headerFlex .MuiButton-root .projectButton {
+    border-color: #D09A49;
+    color: black;
+    width: 8vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   #featured-project {
     display: -webkit-box;
