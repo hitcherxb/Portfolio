@@ -2,14 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import HomePage from './Components/HomePage/Home';
+import AboutPage from './Components/AboutMe/AboutMe';
 import ProjectPage from './Components/Projects/Projects'
+import ContactPage from './Components/Contact/Contact'
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Router>
+    <Route exact path='/' component={HomePage} />
+    <Route exact path='/AboutMe' component={AboutPage} />
     <Route exact path='/Projects' component={ProjectPage} />
+    <Route exact path='/Contact' component={ContactPage} />
     <App />
-  </BrowserRouter>,
+  </Router>,
   document.getElementById('root')
 );
 
