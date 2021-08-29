@@ -7,7 +7,7 @@ import htmlIcon from '@iconify/icons-dashicons/html';
 import bxsFileCss from '@iconify/icons-bx/bxs-file-css';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import profilePic from '../Pictures/me.png'
+import profilePic from '../Pictures/me.jpg'
 import bucketList from '../Pictures/bucketList.png'
 import { Button } from '@material-ui/core'
 import { StylesProvider } from "@material-ui/core/styles";

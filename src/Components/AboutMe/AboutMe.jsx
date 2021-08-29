@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer'
-import profilePic from '../Pictures/me.png'
+import profilePic from '../Pictures/AboutMePic.JPG'
 import './AboutMe.css'
 import { Button } from '@material-ui/core'
 
