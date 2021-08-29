@@ -40,8 +40,8 @@
   margin: 5vh 0 5vh 0;
 }
 
-#body img{
-    width: 85%;
+#body img {
+  width: 85%;
   height: 50%;
 }
 
@@ -131,7 +131,7 @@
             justify-content: center;
   }
   #body img {
-      width: 32vw;
+    width: 32vw;
     height: 55vh;
   }
   #contactButton {

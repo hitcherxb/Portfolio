@@ -1,3 +1,8 @@
+html {
+  position: absolute;
+  left: 0;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -463,7 +468,7 @@ header #project-top p {
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
-  margin-top: 45vh;
+  margin-top: 55vh;
   width: 100vw;
   height: 100vw;
   margin-bottom: 8vh;

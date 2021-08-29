@@ -2,7 +2,10 @@
     display: flex;
     flex-direction: $direction;
 }
-
+html{
+    position: absolute;
+    left: 0;
+}
 
 header{
     @include Flex(column);
@@ -255,7 +258,7 @@ header{
 //Project 3
 #project3{
     @include Flex(column-reverse);
-    margin-top:45vh;
+    margin-top:55vh;
     width:100vw;
     height: 100vw;
     margin-bottom: 8vh;
